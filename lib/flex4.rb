@@ -30,13 +30,13 @@ Sprout::Specification.new do |s|
   #   end
   #
   s.name    = 'flex4'
-  s.version = '4.6.0.23201'
+  s.version = '4.8.0.1359417'
 
   s.add_remote_file_target do |t|
     t.platform     = :universal
     t.archive_type = :zip
-    t.url = "http://download.macromedia.com/pub/flex/sdk/flex_sdk_4.6.zip"
-    t.md5 = "202bca98ee7b8db9cda3af01e99c688e"
+    t.url = "http://mirror.rmg.io/apache/incubator/flex/4.8.0-incubating/apache-flex-sdk-4.8.0-incubating-src.tar.gz"
+    t.md5 = "270918333da65e70e90accb005ede1f7"
 
     # Executables: (add .exe suffix if it was passed in)
     t.add_executable :aasdoc,     "bin/aasdoc"
